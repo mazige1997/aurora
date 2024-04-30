@@ -27,6 +27,6 @@ COPY --from=builder /app/aurora /app/aurora
 COPY harPool /app/harPool
 
 # 暴露端口
-EXPOSE 8080
+EXPOSE 443
 
 CMD ["/app/aurora"]
